@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+body{
+    width: 950px; height: 815px;
+    border: 3px solid saddlebrown;
+    margin: 20px auto;
+    padding: 0;
+    background-image: url(./images/나무판자.jpg);
+
+    
+    
+}
+h1{
+    margin: 0;
+}
+h3{
+    color: cornflowerblue;
+}
+.head{
+    width: 950px; height: 130px;
+    background-color: blueviolet;
+    margin: 0;
+    background-image: url(./images/bird.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: 110px;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    float: left;
+}
+.box1{
+    margin: 0 auto;
+    background-color: coral;
+    height: 40px;
+    line-height: 40px;
+}
+.box1 li{
+    padding: 0 30px;
+    color: #fff;
+}
+.box1 li:hover{
+    background-color: cornflowerblue;
+    color: aquamarine;
+}
+.box2{
+    background-color: #ddd;
+    padding: 10px 0;
+    width: 660px;
+    height: 600px;
+    /* display: block; */
+    
+}
+article h2{
+    margin: 0;
+}
+article{
+    margin: 20px;
+}
+.noodle{
+    float: right;
+    display: block;
+    
+    width: 300px;
+    height: 200px;  
+}
+.nood{
+    border: 3px solid salmon;
+    width: 300px;
+    height: 230px;
+    background-image: url(./images/쌀국수.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px ;
+    padding: auto;
+    
+}
+.sauce{
+    float: right;
+    display: block;
+    
+    width: 300px;
+    height: 200px;
+}
+.sauce h2{
+    margin-top: -20px;
+}
+.sau{
+    border: 3px solid salmon;
+    background-image: url(./images/소스.jpg);
+    width: 300px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    margin: 20px;
+}
+.box3{
+    display: block;
+    float: right;
+    margin-left: 655px;
+    position: absolute;
+    top: 193px;
+    border: 2px solid #222;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    width: 293px;
+    height: 620px;
+    background-color: #fff;
+
+}
+.box3 h3{
+    text-indent: 20px;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.box3 .gnb{
+    padding: 0;
+}
+.box3 li{
+    list-style: none;
+    border: 2px solid #222;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top:  50px;
+    font-size: 20px;
+    text-indent: 20px;
+    
+}
+.box3 li a{
+    border: 3px solid slateblue;
+
+}
+.kitchen{
+    background-color: blueviolet;
+    margin-top: 0;
+    padding: 1.8px;
+    text-indent: 20px;
+}
+.add{
+    text-indent: 20px;
+}
+ /* .noodle{
+    border: 3px solid salmon;
+    background-image: url(./images/쌀국수.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20px 0 20px;
+    width: 300px;
+    height: 230px;
+    padding-left: 200px;
+} */
+/* .sauce{
+    border: 3px solid salmon;
+    background-image: url(./images/소스.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 230px;
+    padding: 20px;
+} */
+
+
+
