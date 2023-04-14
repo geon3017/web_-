@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&display=swap');
+
 body{
     width: 950px; height: 815px;
     border: 3px solid saddlebrown;
@@ -11,17 +13,29 @@ body{
     
 }
 h1{
+    font-family: 'Abril Fatface', '나눔고딕', cursive, serif;
     margin: 0;
+    padding-top: 23px;
+    color: #fff;
+
+}
+.cook{
+    font-family: 'Libre Baskerville', '나눔 고딕', serif;
+    font-size: 30px;
+    margin: 0;
+    color: #fff;
 }
 h3{
-    color: cornflowerblue;
+    color: red;
+    font-weight: bold;
 }
 .head{
     width: 950px; height: 130px;
     background-color: blueviolet;
     margin: 0;
-    background-image: url(./images/bird.jpg);
-    background-size: contain;
+    background-image: url(./images/레이카.png);
+    background-position: 10px;
+    background-size: 90px;
     background-repeat: no-repeat;
     text-indent: 110px;
 }
@@ -35,20 +49,23 @@ h3{
 }
 .box1{
     margin: 0 auto;
-    background-color: coral;
+    display: block;
+    background-color: rgb(250, 250, 19);
+    width: 950px;
     height: 40px;
     line-height: 40px;
 }
 .box1 li{
     padding: 0 30px;
-    color: #fff;
+    color: blueviolet;
+    font-weight: bold;
 }
 .box1 li:hover{
     background-color: cornflowerblue;
     color: aquamarine;
 }
 .box2{
-    background-color: #ddd;
+    background-color: #f7f1f1;
     padding: 10px 0;
     width: 660px;
     height: 600px;
@@ -71,18 +88,22 @@ article{
 .nood{
     border: 3px solid salmon;
     width: 300px;
-    height: 230px;
     background-image: url(./images/쌀국수.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin: 20px ;
-    padding: auto;
-    
+    background-size: 280px;
+    margin: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #0000006e;
+    text-align: right;
+    background-position: 10px 5px;
+    padding: 190px 0 10px 0;
+    background-color: #fff;
 }
 .sauce{
     float: right;
     display: block;
-    
+
     width: 300px;
     height: 200px;
 }
@@ -91,46 +112,56 @@ article{
 }
 .sau{
     border: 3px solid salmon;
-    background-image: url(./images/소스.jpg);
+    background-color: #fff;
+    background-image: url(./images/소스2.jpg);
     width: 300px;
-    height: 230px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 280px;
     text-align: right;
     margin: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #0000006e;
+    background-position: 10px 5px;
+    padding: 190px 0 10px ;
 }
 .box3{
     display: block;
     float: right;
     margin-left: 655px;
     position: absolute;
-    top: 193px;
-    border: 2px solid #222;
+    top: 192px;
+    border: 2px solid #f30101;
     border-top: none;
     border-bottom: none;
     border-right: none;
     width: 293px;
-    height: 620px;
+    height: 617px;
     background-color: #fff;
 
 }
+
 .box3 h3{
     text-indent: 20px;
+    font-weight: bold;
     font-size: 30px;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 .box3 .gnb{
     padding: 0;
+    font-weight: bold;
 }
 .box3 li{
     list-style: none;
-    border: 2px solid #222;
+    border: 2px solid #ff1212;
     border-top: none;
     border-right: none;
     border-left: none;
-    margin-top:  50px;
+    margin-top: 30px;
+    padding: 5px;
     font-size: 20px;
     text-indent: 20px;
+    
     
 }
 .box3 li a{
@@ -139,11 +170,14 @@ article{
 }
 .kitchen{
     background-color: blueviolet;
-    margin-top: 0;
-    padding: 1.8px;
     text-indent: 20px;
+    color: #fff;
+    line-height: 30px;
+    height: 29px;
+    margin-top: -4px;
 }
 .add{
+    font-size: 20px;
     text-indent: 20px;
 }
  /* .noodle{
