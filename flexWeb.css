@@ -27,6 +27,13 @@ p{
 }
 .bd1{
   display: flex;
-  
 }
-
+.bd1 .back{
+  width: 200px; height: 100vh;
+}
+.bd3 img{
+ width: 200px; height: 100vh;
+}
+.foot{
+  dios
+}
