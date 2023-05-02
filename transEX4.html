@@ -4,30 +4,40 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>transEX4</title>
-        <style>
-            div{
-                background-color: salmon;
-                width: 30%; height: 40vh;
-            }
-            aside{
-                background-color: skyblue;
-                width: 50%; height: 10vh;   
-            }
-            input[type=checkbox]:checked ~ aside{
-                position: relative;
-                transition: all 0.7s;
-                transform: translateY(-415px);
-            }
-        </style>
-    </head>
-    <body>
-        <h1>trans 연습4</h1>
-        <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="check">체크 박스가 체크되면 박스가 위로 올라와 사라집니다.</label>
-        <div>
-            <h2>:checkde</h2>
-            <p>덮어 강아지, 이네들은 별 버리었습니다. 가난한 다 경, 오면 파란 했던 봅니다. 된 지나고 같이 많은 사람들의 하나에 까닭입니다. 까닭이요, 무성할 한 하나에 까닭이요, 있습니다.</p>
-        </div>
-        <aside>block</aside>
-    </body>
+        .slideUp{
+            width: 400px; height: 400px;
+            background-color: skyblue;
+            transition: 1s;
+            overflow: hidden;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+          .block{
+            width: 500px; height: 100px;
+            background-color: orange;
+          }
+          input[name="check"]:checked ~ .slideUp {
+            /* visibility: hidden; */
+            /* opacity: 0; 사용자 눈에만 보이지 않음. 영역은 그대로 남음. 투명도 조절 가능. transition의 영향을 받음*/
+            /* display: none; 브라우저 영역에서 사라지며 코드창에서만 확인. 레이아웃에 영향을 줌. transition의 영향을 받지 않음*/
+            height: 0;
+            padding: 0;
+          }
+  </style>
+  </head>
+  <body>
+      <h1>trans 연습4</h1>
+      <input type="checkbox" name="check" id="check">
+      <label for="check">체크 박스가 체크되면 박스가 위로 올라와 사라집니다.</label>
+      <!-- <div>
+          <h2>:checkde</h2>
+          <p>덮어 강아지, 이네들은 별 버리었습니다. 가난한 다 경, 오면 파란 했던 봅니다. 된 지나고 같이 많은 사람들의 하나에 까닭입니다. 까닭이요, 무성할 한 하나에 까닭이요, 있습니다.</p>
+      </div>
+      <aside>block</aside> -->
+      <div class="slideUp">
+        <h2>:checked</h2>
+        <p>덮어 강아지, 이네들은 별 버리었습니다. 가난한 다 경, 오면 파란 했던 봅니다. 된 지나고 같이 많은 사람들의 하나에 까닭입니다. 까닭이요, 무성할 한 하나에 까닭이요, 있습니다.</p>
+      </div>
+      <div class="block">block</div>
+</body>
 </html>
