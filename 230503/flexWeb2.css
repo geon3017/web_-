@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/* header */
+header{
+  /* background-color: #ddd;  */
+  position: absolute;
+}
+header .menu1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  
+}
+.menu1 li{
+  margin: 0 60px;
+}
+
+header .menu1 li:hover{
+  color: sandybrown;
+}
+header .logo-1{
+  display: flex;
+  justify-content: left;
+}
+
+header .side-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  color: #fff;
+  
+}
+
+header .side-2 li{
+  border-radius: 50px;
+  width: 150px; height: 40px;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+header .side-2 li:first-child{
+  background-color: sandybrown;
+}
+header .side-2 li:first-child:hover{
+  color: #000;
+}
+header .side-2 li:hover{
+ color: #000;
+}
+
+.video{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+/* body-1 */
+
+article{
+  margin: 8vw;
+  text-align: center;
+  clear: both;
+}
+article p{
+  padding: 40px;
+}
+article h2{
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+article p:first-child{
+  color: sandybrown;
+  font-size: 50px;
+}
+article p{
+  font-size: 25px;
+}
+.all-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article .icon{
+margin: 50px 150px;
+width: 395px; height: 150px;
+font-size: 20px;
+}
+
+article .num{
+  font-size: 5rem;
+  font-weight: bold;
+}
+article .midd{
+  font-size: 25px;
+  color:#022974;
+}
+article .bot{
+  color: #555;
+  font-size: 18px;
+}
+
+/* body-2 */
+
+.menu2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  padding: 50px;
+  font-weight: bold;
+}
+.menu2 li{
+  margin: 10px 20px;
+}
+.menu2 li:hover{
+  color: sandybrown;
+}
+.busan{
+  background-color: #eee;
+  width: 50%; height: 780px;
+  display: block;
+  position: absolute;
+}
+.busan .sub{
+  text-align: center;
+}
+.busan .sub h3{
+  font-size: 50px;
+  padding: 50px 0;
+  color: #333;
+  font-weight: bold;
+}
+.busan .sub p{
+  font-size: 22px;
+  color: #666;
+}
+.busan img{
+  width: 285px; height: 165px;
+}
+.busan .image{
+  display: flex;
+  justify-content: center;
+}
+.busan .image li{
+  margin: 50px 0;
+  padding: 0 50px;
+}
+.btn-1{
+  width: 250px; height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: sandybrown;
+  margin: 80px auto;  
+  transition: 0.3s;
+  color: #fff;
+  position: relative;
+}
+.btn-1:hover{
+  border-radius: 50px;
+}
+.busan-2{
+  display: flex;
+  justify-content: right;
+}
+
+/* body-3 */
+
+.svh{
+  margin: 8vw 0;
+}
+.svh .btn-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding: 50px;
+}
+.svh .btn-2 li{
+  padding: 50px;
+  text-transform: capitalize;
+}
+.svh .btn-2 li:hover{
+  color: sandybrown;
+}
+.svh .map{
+  background-color: cornflowerblue;
+  height: 1000px;
+  text-align: center;
+  line-height: 1000px;
+  color: rgb(204, 216, 29);
+  font-size: 200px;
+  padding: 0;
+}
+.more-btn{
+  width: 250px; height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  text-transform: capitalize;
+  background-color: sandybrown;
+  margin: 50px auto;  
+  transition: 0.3s;
+  color: #fff;
+  position: relative;
+}
+.more-btn:hover{
+  border-radius: 50px;
+}
+
+/* footer */
+
+.foot{
+  display: flex;
+}
+.foot .img-1 {
+  display: block;
+  margin: 0 ;
+  padding: 0;
+  border: 1px solid #000;
+  background: url(./image/1.png) no-repeat 50% 50% /cover ;
+
+}
+.page{
+  width: 200px; height: 80px;
+
+  background-color: sandybrown;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
