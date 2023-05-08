@@ -12,7 +12,25 @@ header .menu1{
   font-size: 15px;
   color: #fff;
   font-weight: bold;
+  background-color: #dddddd54;
   
+}
+.cir ul{
+  width: 50px;
+}
+.cir li{
+  width: 110px; height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 100px ;
+  text-align: center;
+  background-color: #00000046;
+
+}
+.cir li:hover{
+  background: linear-gradient(45deg, #fff, orange);
 }
 .menu1 li img{
   max-width: 200px;
@@ -64,6 +82,7 @@ header .side-2 li:hover{
 .video-1{
   width: 100%; height: 100%;
   object-fit: cover;
+  display: flex;
 }
 /* body-1 */
 
@@ -253,7 +272,7 @@ article .bot{
  font-weight: bold;
 }
 .Notice li{
-  margin: 40px 30px;
+  margin: 30px 30px;
   padding-bottom: 10px;
   border: 1px solid #ddd;
   border-top: 0; border-left: 0; border-right: 0;
@@ -323,5 +342,8 @@ article .bot{
   padding: 20px 0;
   clear: both;
 } 
+.img-3 .menu3{
+  color: #666;
+}
 
 
