@@ -49,6 +49,9 @@ header .loge-main{
   align-items: center;
   text-transform: uppercase;
 }
+header .loge-main a:hover{
+  color: #69a9c5;
+}
 header .loge-main .DYAMI:first-child{
   margin-right: 750px;
   background: url(./img/DYAMI.png) no-repeat 50% / cover;
