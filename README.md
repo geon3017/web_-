@@ -20,9 +20,8 @@
 ## 16집에서하기
 ## 17---           
 ## 18--- map 적용이 안됨
-<<<<<<< HEAD
-## 19--- web 만들기
-## 20-- web 만들기
-=======
 ## 19--- 230524 / Stephen Sanchez [Until I Found You]
->>>>>>> 08170cde89673cb4ba91e3a60a21face241d43bd
+## 20-- web 만들기
+## 21-- 230525 / Ed Sheeran [Eyes Closed]
+
+
