@@ -18,7 +18,7 @@
 ## 14--- 230502 / HONNE [BACK ON TOP(feat. Griff)]
 ## 15--- 230507 / Jeremy Zucker [not ur friend]
 ## 16집에서하기
-## 17--- http://bdmp-001.cafe24.com/bizdemo144534/
+## 17---           
 ## 18--- map 적용이 안됨
 <<<<<<< HEAD
 ## 19--- web 만들기
