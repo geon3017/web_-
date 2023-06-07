@@ -23,6 +23,6 @@
 ## 19--- 230524 / Stephen Sanchez [Until I Found You]
 ## 20-- web 만들기
 ## 21-- 230525 / Ed Sheeran [Eyes Closed]
-## 22-- 230606 / Ruel [SOMEONE ELESE'S PROBLEM]
-## 23-- 230607 /
+## 22-- 230606 / Jeremy Zucker [OK]
+## 23-- 230607 / Tal Verdes [sheluvme]
 
