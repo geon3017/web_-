@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <script>
+            let num = prompt('1~4사이의 숫자를 입력하세요')
+            console.log(typeof num);// string
+
+
+            num = num * 1;
+            console.log(typeof num);
+
+            if (num === 1) {// 이 조건이 참이면
+            document.body.innerHTML = '<img src="https://unsplash.it/400/200?image=10" alt="img1" >';// 실행되어라
+            } else if (num === 2) {
+            document.body.innerHTML = '<img src="./image/bmw.jpg" alt="logo2" >';
+            } else if (num === 3) {
+            document.body.innerHTML = '<img src="./image/hyundai.png" alt="logo3" >';
+            } else if (num === 4) {
+            document.body.innerHTML = '<img src="./image/volvo.png" alt="logo4" >';
+            } else {
+            document.body.textContent = '<h2>해당 번호만 입력해 주세요</h2>';
+            }
+
+        // if (num === '1') {// 이 조건이 참이면
+        //   document.body.innerHTML = '<img src="https://unsplash.it/400/200?image=10" alt="img1" >';// 실행되어라
+        // } else if (num === '2') {
+        //   document.body.innerHTML = '<img src="./image/bmw.jpg" alt="logo2" >';
+        // } else if (num === '3') {
+        //   document.body.innerHTML = '<img src="./image/hyundai.png" alt="logo3" >';
+        // } else if (num === '4') {
+        //   document.body.innerHTML = '<img src="./image/volvo.png" alt="logo4" >';
+        // } else {
+        //   document.body.textContent = '<h2>해당 번호만 입력해 주세요</h2>';
+        // }
+        // 
+        </script>
+    </body>
+</html>
